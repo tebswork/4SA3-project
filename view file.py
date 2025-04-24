@@ -28,3 +28,15 @@ if option == "A":
     elif feeling == "C": 
         print("Oh I see, that's not a fun sensation.")
         print("What would you like to do now?")
+
+elif option == "B":
+    def entry(log): 
+        print("Please enter your journal entry in the space below:")
+        log = input()
+        print(log)
+        return iter(input)
+
+elif option == "C":
+    print("What goals do you have for today?")
+    goal = input()
+    print(goal)
